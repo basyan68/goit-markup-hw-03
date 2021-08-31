@@ -42,6 +42,7 @@ p{
     list-style: none;
     margin: 0;
     padding: 0;
+    /* display: flex; */
 }
 .contacts{    
     font-weight: 500;
@@ -195,6 +196,7 @@ p{
 }
 .active-button {
     background-color: var(--acent-color);
+    color: var(--title-text-color);
 }
 .section .button-spisok:hover,
 .section .button-spisok:focus{
