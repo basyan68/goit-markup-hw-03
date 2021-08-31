@@ -23,6 +23,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     line-height: 2;
+    min-width: 1200;
 }
 h1,
 h2,
@@ -62,7 +63,7 @@ p{
     /* Studio */
 /* Header-section */
 .header-section{
-
+    border: 1px solid #ECECEC;
 }
 .nav-header .link {
     color: var(--primary-text-color);
@@ -188,8 +189,9 @@ p{
     line-height: 1.60;    
     text-align: center;
     cursor: pointer;
-    background: #F5F4FA;
+    background-color: var(--background-color-team);
     border-radius: 4px;
+    padding: 6px 22px;
 }
 .active-button {
     background-color: var(--acent-color);
@@ -199,9 +201,12 @@ p{
     background-color: var(--acent-color);
     color: var(--title-text-color);
 }
+.card-portfolio li{
+    border-bottom: 1px solid #EEEEEE;
+}
 
 .hero-portfolio-title{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
