@@ -74,8 +74,8 @@ ul{
 }
 .header-section{
     border-bottom: 1px solid #ECECEC;
-    height: 80px;
-    padding-top: 7px;
+    /* height: 80px;
+    padding-top: 7px; */
 }
 .main-nav{
     display: flex;
