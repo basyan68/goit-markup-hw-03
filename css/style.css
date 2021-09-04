@@ -72,7 +72,7 @@ img {
 .conteiner-page{
     width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 32px 15px;
     display: flex;
     align-items: center; 
 }
@@ -84,7 +84,7 @@ img {
 .main-nav{
     display: flex;
     align-items: center; 
-    padding: 32px 0;
+    /* padding: 32px 0; */
 }
 .nav-header{
     display: flex;
