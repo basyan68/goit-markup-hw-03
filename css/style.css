@@ -315,6 +315,7 @@ img {
     background-color: var(--background-color-team);
     border-radius: 4px;
     padding: 6px 22px;   
+    border: none;
 }
 .active-button {
     background-color: var(--acent-color);
