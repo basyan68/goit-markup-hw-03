@@ -289,6 +289,9 @@ img {
     color: var(--contacts-acent-footer);
     font-style: normal;
 }
+.footer-contacts li{
+    display: flex;
+}
 
     /* Portfolio */
 /* Main-section */
