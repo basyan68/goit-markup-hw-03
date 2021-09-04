@@ -35,9 +35,8 @@ p,
 ul{
     margin: 0;
 }
-.img {
+img {
     display: block;
-    margin: 0;
 }
 .link{
     text-decoration: none;
@@ -85,11 +84,12 @@ ul{
 .main-nav{
     display: flex;
     align-items: center; 
+    padding: 32px 0;
 }
 .nav-header{
     display: flex;
     margin-left: 93px;
-    padding: 32px 0;
+    
 }
 .nav-header .item + .item{
     margin-left: 50px;
@@ -256,7 +256,7 @@ ul{
     color: var(--title-text-color);
     font-style: normal;
     margin-bottom: 9px;
-    margin-top: 20px;
+    
 }
 .web{
     font-family: Raleway;
@@ -272,8 +272,15 @@ ul{
     line-height: 1.20;
     color: var(--title-text-color);
 }
+.footer-contacts{
+    margin-top: 20px;
+}
 .footer-contacts li{
     margin-bottom: 9px;
+}
+.footer-contacts li:nth-child(2n){
+    margin-bottom: 0;
+}
 }
 .footer-contacts .link{
     font-size: 14px;
