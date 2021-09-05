@@ -44,6 +44,7 @@ img {
     font-size: 14px;
     line-height: 1.15;
     letter-spacing: 0.02em;
+    font-style: normal;
 }
 .list{
     list-style: none;
@@ -72,7 +73,7 @@ img {
 .conteiner-page{
     width: 1200px;
     margin: 0 auto;
-    padding: 32px 15px;
+    padding: auto 15px;
     display: flex;
     align-items: center; 
 }
@@ -96,6 +97,8 @@ img {
 }
 .nav-header .link{
     color: var(--primary-text-color);
+    padding: 32px 0;
+    display: block;
 }
 .nav-header .active{
     color: var(--acent-color);
@@ -281,7 +284,7 @@ img {
 .footer-contacts li:nth-child(2n){
     margin-bottom: 0;
 }
-}
+
 .footer-contacts .link{
     font-size: 14px;
     line-height: 1.70;
